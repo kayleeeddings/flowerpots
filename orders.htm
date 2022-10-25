@@ -20,10 +20,87 @@
         <a href="contactus.htm"> <img src="images/nav_contact.gif"> </a> <br>
         <a href="links.htm"> <img src="images/nav_links.gif"> </a> <br>
     </td>    
-
     <td>
+    <h3>To place an order for any of our products, or to request our latest catalog, complete the form below.</h3>
+   
+    <br>
+    <form method="post"action="http://server1"> Name: <input type="text" name="fname">
+    </br> 
+    
+    <br>
+    <form method="post"action="http://server1"> Email Address: <input type="text" email="fname">
+    </br> 
+
+    <br>
+    <form method="post"action="http://server1"> Phone Number: <input type="text" number="fname">
+    </br>
+
+    <br>
+    <form method="post"action="http://server1"> Street Address: <input type="text" street="fname">
+    
+    <form method="post"action="http://server1"> City: <input type="text" city="fname">
+    
+    <form method="post"action="http://server1"> State: <input type="text" state="fname">
+
+    <form method="post"action="http://server1"> Zip: <input type="text" zip="fname">
+    
+    </br>
+
+    <br>
+       
+    <section class="pot-type">
+      <label for="pot">What type of flower pot would you like?</label>
+      <select name="pot" id="pot">
+        <option value="redearth">Red Earth</option>
+        <option value="nightsky">Night Sky</option>
+        <option value="countryplanter">Country Planter</option>
+        <option value="chineseclayflowerpot">Chinese Clay Flower Pot</option>
+        <option value="italianterracotta">Italian Terracotta</option>
+        <option value="carvedterracotta">Carved Terracotta</option>
+        <option value="classicclay">Classic Clay</option>
+
+    <section class="quantity"></section>
+    <label for="pot">Quantity:</label>
+          <input type="number" name="quantity" id="quantity">
+
+        </select>
+    </section>
+</br>
+   <br>
+    <section class="skill">
+        <span>Choose gardening skill:</span>
+        
+        <input type="radio" name="skill" id="amateur" value="amateur">
+        <label for="amateur">Amateur</label>
+        <input type="radio" name="skill" id="hobbyist" value="hobbyist">
+        <label for="hobbyist">Hobbyist</label>
+        <input type="radio" name="skill" id="professional" value="professional">
+        <label for="professional">Professional</label>
+      </section>
+
+    </br>
+        <br>
+      <section class="checkbelow">
+        <span>How would you like to recieve info?</span>
+        <br>
+        <input type="checkbox" name="emailnewsletter" id="emailnewsletter" value="emailnewsletter">
+        <label for="emailnewsletter">Email Newsletter</label>
+        <p>or/and</p>
+        <input type="checkbox" name="catalog" id="catalog" value="catalog">
+        <label for="catalog">Catalog</label>
+      </section>
+    </br>
+
+    <hr>
+
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+      </form>
+    </section>
 
     </td>
+    
 </table>
 
 <a href="index.htm">Home Page</a>
